@@ -1,6 +1,6 @@
 # Tala
 
-## A cloud based MDX editor built for simplicity
+## A prototype for something in the future
 
 
 
@@ -20,10 +20,3 @@ I don't know what authentication service to use, if I should use OAuth or NextAu
 
 - might just go f*ck it and go with supabase or firebase for both auth and db
 
-
-## Roadmap and future features
-- LaTex support
-- Doc support
-- PDF export with code highlighting for code blocks
-- Mobile and Desktop app
-- Vim motions support
