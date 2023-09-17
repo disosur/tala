@@ -9,12 +9,11 @@ const markdown = `
 export default function Editor() {
   return (
     
-      <div className=' flex h-screen w-1/2 p -4 shadow-md border-2'>
+      <div className=' flex max-h-full min-h-[60rem] w-1/2 min-w-[26rem] p-4 shadow-md border-2'>
         <Suspense fallback={null}>
           <EditorComp markdown={markdown} />
         </Suspense>
       </div>
-    
     
   )
 }
